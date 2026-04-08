@@ -241,7 +241,7 @@
         <div class="header">
             <div class="header-accent"></div>
             <div class="header-content">
-                <h1 class="title"><%= meta.title %></h1>
+                <h1 class="title"><%= leftCol.items.length %> <%= meta.title.split(' ').slice(1).join(' ') %></h1>
                 <div class="subtitle"><%= meta.subtitle %></div>
             </div>
             <div class="header-logo-container">
@@ -296,7 +296,7 @@
                 <% } %>
 
                 <div style="text-align: center; font-size: 7pt; color: #999; margin: 8pt 0; font-style: italic;">
-                    *Porsi percakapan dari 5 Kementerian dengan Pemberitaan tertinggi
+                    *Porsi percakapan dari <%= col.data.items.length %> Kementerian dengan Pemberitaan tertinggi
                 </div>
                 <hr style="border: none; border-top: 0.5pt solid #ddd; width: 100%; margin: 5pt 0;">
 
