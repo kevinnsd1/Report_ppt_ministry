@@ -309,7 +309,7 @@
                         <div class="min-dot" style="background-color: <%= color %>; width: 24pt; height: 24pt;"></div>
                     <% } %>
                     <div class="sorotan-text">
-                        <div class="sorotan-alias"><%= item.alias %></div>
+                        <div class="sorotan-alias"><%- item.name.replace(/\n/g, ' ') %></div>
                         <div class="sorotan-desc"><%= item.text %></div>
                     </div>
                 </div>

@@ -50,7 +50,7 @@ export interface SummaryWayForwardSlide extends BaseSlide {
 
 export interface MinistryData {
     name: string;
-    alias: string;
+    alias?: string;
     value: number;
     text: string;
     logoUrl?: string;
